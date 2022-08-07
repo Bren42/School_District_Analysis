@@ -43,3 +43,28 @@ What we can see in this data is that although we see some changes the impact ove
 
 Overall the impact was minimal. In our review of the top five schools by performance Thomas high was listed as the second best performing school with a 90.94% overall passing rate, once you removed the ninth grade scores they were still rated as number two in performance with a 90.63% overall passing percentage.
 
+## Analysis Summary
+Lets start by first looking at the top 5 and bottom 5 schools overall and then we can begin to dive further into the analysis.
+
+### **Top Schools**
+![This is an image]("C:\Users\nytec\Class\School_District_Analysis\resources\top_schools.png")
+
+### **Bottom Schools**
+![This is an image]("C:\Users\nytec\Class\School_District_Analysis\resources\bottom_schools.png")
+
+As we can see in this initial comparison between the top five schools and bottom five schools we can see some early patterns emerging in the data.
+-All of the top five schools are charter schools, inversely all of the bottom five schools are district schools. 
+-The top five schools also have a lower average per student spending. The average per student spending is $606 for the top five schools, wereas for the lowest five schools the average per student is $646
+-The lowest five schools have much larger total student sizes.
+    -Lowest five average student count:3852
+    -Top five schools average student count:1641
+-The academic area that the lowest schools are lowest in is math. Where are reading scores are relatively comparable with only a 3% swing, math suffers. Math scores between the lowest five and top five schools have a 29 percentage point swing between them.
+
+So from this simple view we can make a couple of assumptions at this point:
+1. Charter schools are outperforming district schools.
+2. Spending is not a direct factor in success as the top five schools have a much lower per student spending and a much higher overall passing percentage.
+3. School size does seem to have a relational impact as all of the lowest five schools have a much larger student body.
+4. Math scores are the area that the lowest five schools seem to struggle with. 
+
+However lets look at some of these areas more specifically to see if these assumptions hold up.
+
