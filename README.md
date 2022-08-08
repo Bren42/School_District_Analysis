@@ -66,5 +66,43 @@ So from this simple view we can make a couple of assumptions at this point:
 3. School size does seem to have a relational impact as all of the lowest five schools have a much larger student body.
 4. Math scores are the area that the lowest five schools seem to struggle with. 
 
-However lets look at some of these areas more specifically to see if these assumptions hold up.
+However lets take a look at schools from a few perspectives
+
+
+## School Scores by Type
+
+So first we will look at scores by type of schools:
+
+![This is an image](https://github.com/Bren42/School_District_Analysis/blob/main/resources/type_score.png)
+
+So in this breakout we see a clear pattern, it would seem that charter schools clearly outperform the district schools. We also saw this in the top five and bottom five school breakouts as the top five were all charter and the bottom five were all district. However we need to find some other correlation beyond school type. 
+
+## School Scores by Spending
+
+![This is an image](https://github.com/Bren42/School_District_Analysis/blob/main/resources/scores_by_spending.png)
+
+As we can see in the above image spending does not seem to be the driver of high or low school passing scores. Although we do have two schools in this output that are in the top five schools overall, we also have three schools that are in the bottom five. Those three schools, Bailey, Figueroa, and Ford not only have low scores but they also have the highest budgets. So in this case we cannot make a direct claim that low scores are due to per student spending.
+
+This is again confirmed in the per student spending breakout:
+![This is an image](https://github.com/Bren42/School_District_Analysis/blob/main/resources/per_student_spending.png)
+
+## School Scores by Size
+
+![This is an image](https://github.com/Bren42/School_District_Analysis/blob/main/resources/summary_school_size.png)
+
+School size definetely has an impact on scores, and so far this seems to be one of the more significant drivers of success/failure. The small and medium schools have a minor difference overall, almost all their averages are within 1 percentage point. When we swing over to large schools though we see far greater declines in math scores, 24 points on average. 
+
+Lets look at a breakout of schools though to see if the pattern of school size impacting scores continues.
+
+![This is an image](https://github.com/Bren42/School_District_Analysis/blob/main/resources/school_size_score.png)
+
+
+As we can see in the data above only one large category school had a decent overall passing percentage at 90%, and of all the schools in the large category it was the smallest, almost coming in at a medium category. We can also see that the type of schools that have the lowest scores, district, are also all in the large category. 
+
+## Final Outcomes
+Based on the data we have reviewed and the outcomes we are seeing it would seem that the biggest factor in a schools outcomes are driven in part by school size. A further analysis on what factors related to the size of school could be driving this, i.e. class size, resources, etc. could lead us to better improvements.
+
+
+
+
 
